@@ -1,8 +1,12 @@
 #include <iostream>
 using namespace  std;
- void square(int sq)
+ void power(int base, int to)
  {
-     int wow=sq*sq;
+     int wow=base;
+     for(int i=0;i<to;i++)
+     {
+         wow=wow*base;
+     }
      cout<<wow<<endl;
  };
 int main()
