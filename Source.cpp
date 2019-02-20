@@ -11,4 +11,5 @@ using namespace  std;
  };
 int main()
 {
+    power(2,3);
 }
